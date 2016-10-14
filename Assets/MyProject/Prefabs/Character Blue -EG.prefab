@@ -2507,7 +2507,7 @@ MonoBehaviour:
   - {fileID: 114000011867621184}
   chestBody: {fileID: 54000012889589684}
   legRate: 0.4
-  legRateIncreaseByVelocity: 0.1
+  legRateIncreaseByVelocity: 0.4
   liftForce: 80
   holdDownForce: 200
   moveForwardForce: 30
@@ -2520,7 +2520,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010680155310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6446524a012c9d644ae045dc51d8b618, type: 3}
   m_Name: 
@@ -2540,7 +2540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14933802d24c46947ac786a9d1fd6189, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keepUpright: 1
+  keepUpright: 0
   uprightForce: 100
   uprightOffset: 2
   additionalUpwardForce: 0
@@ -2551,7 +2551,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011909874904}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6446524a012c9d644ae045dc51d8b618, type: 3}
   m_Name: 
@@ -2577,9 +2577,7 @@ MonoBehaviour:
   legs: {fileID: 114000012234510042}
   chestUpright: {fileID: 114000013514263848}
   maintainHeight: {fileID: 114000012226173502}
-  otherMaintainHeight:
-  - {fileID: 114000013641718272}
-  - {fileID: 114000012816006218}
+  otherMaintainHeight: []
   otherUprights:
   - {fileID: 114000010770077048}
   - {fileID: 114000013941449660}
