@@ -18,7 +18,6 @@ public class VisionConeController : MonoBehaviour
             if (ray.transform.CompareTag("Player"))
             {
                 coneObject.GetComponent<MeshRenderer>().material.color = Color.red;
-                Debug.Log(collider);
             }
         }
     }
