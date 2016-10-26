@@ -501,6 +501,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011851542218, guid: f6ba12bec9b7e194c896e1910260f89d,
+        type: 2}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 1487297823}
+    - target: {fileID: 114000011851542218, guid: f6ba12bec9b7e194c896e1910260f89d,
+        type: 2}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 676666461}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f6ba12bec9b7e194c896e1910260f89d, type: 2}
   m_IsPrefabParent: 0
@@ -1583,6 +1593,10 @@ Prefab:
     - target: {fileID: 4000013265998522, guid: 967ee49c78227aa4d8a583b60e922656, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012143458758, guid: 967ee49c78227aa4d8a583b60e922656, type: 2}
+      propertyPath: m_Name
+      value: Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 967ee49c78227aa4d8a583b60e922656, type: 2}

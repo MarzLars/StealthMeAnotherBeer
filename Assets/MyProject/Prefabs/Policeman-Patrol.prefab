@@ -2757,8 +2757,8 @@ MonoBehaviour:
   - {fileID: 114000010061472538}
   - {fileID: 114000010219439468}
   chestBody: {fileID: 54000012025463202}
-  legRate: 0.45
-  legRateIncreaseByVelocity: 0.2
+  legRate: 0.4
+  legRateIncreaseByVelocity: 0.1
   liftForce: 80
   holdDownForce: 200
   moveForwardForce: 30
