@@ -2,12 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System;
 
 public class InventoryManager : MonoBehaviour
 {
     public delegate void DeliverableEvent(DeliverableModel deliverable);
     public DeliverableEvent OnEquippedDeliverable;
     public DeliverableEvent OnDeliverableDepleted;
+
+    public delegate void InventoryEvent();
+    public InventoryEvent OnUnequipCurrentDeliverable;
 
     public static InventoryManager Instance;
 
@@ -22,18 +26,11 @@ public class InventoryManager : MonoBehaviour
     private DeliverableModel selectedDeliverable = null;
     private bool isDeliverableEquipped = false;
 
-    private Dictionary<string, int> inventoryList = new Dictionary<string, int>();
+    private Inventory inventoryList = new Inventory();
 
     public void AddToInventory(DeliverableModel deliverable, int number, bool equipIfEmpty = true)
     {
-        if (inventoryList.ContainsKey(deliverable.name))
-        {
-           inventoryList[deliverable.name] += number;
-        }
-        else
-        {
-            inventoryList.Add(deliverable.name, number);
-        }
+        inventoryList.AddItems(deliverable, number);
 
         if (selectedDeliverable == null)
         {
@@ -41,7 +38,7 @@ public class InventoryManager : MonoBehaviour
         }
         else if (deliverable == selectedDeliverable)
         {
-            selectedCount.text = inventoryList[deliverable.name].ToString();
+            selectedCount.text = inventoryList.AmountOfItem(deliverable.name).ToString();
         }
 
         if (equipIfEmpty && !isDeliverableEquipped)
@@ -52,12 +49,12 @@ public class InventoryManager : MonoBehaviour
 
     private bool RemoveFromInventory(DeliverableModel deliverable, int number)
     {
-        if (inventoryList.ContainsKey(deliverable.name) && inventoryList[deliverable.name] >= number)
+        if (inventoryList.ContainsItem(deliverable.name) && inventoryList.AmountOfItem(deliverable.name) >= number)
         {
-            inventoryList[deliverable.name] -= number;
+            inventoryList.RemoveItems(deliverable.name, number);
             if (deliverable == selectedDeliverable)
             {
-                selectedCount.text = inventoryList[deliverable.name].ToString();
+                selectedCount.text = inventoryList.AmountOfItem(deliverable.name).ToString();
             }
             return true;
         }
@@ -75,7 +72,7 @@ public class InventoryManager : MonoBehaviour
 
     private void EquipNextDeliverable()
     {
-        if (inventoryList[selectedDeliverable.name] > 0)
+        if (inventoryList.AmountOfItem(selectedDeliverable.name) > 0)
         {
             EquipDeliverable(selectedDeliverable);
         }
@@ -93,7 +90,7 @@ public class InventoryManager : MonoBehaviour
     {
         selectedDeliverable = deliverable;
         selectedIcon.sprite = deliverable.Icon;
-        selectedCount.text = inventoryList[deliverable.name].ToString();
+        selectedCount.text = inventoryList.AmountOfItem(deliverable.name).ToString();
     }
 
     private void EquipDeliverable(DeliverableModel deliverable)
@@ -120,5 +117,27 @@ public class InventoryManager : MonoBehaviour
     private void OnDestroy()
     {
         Instance = null;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SelectNextDeliverable();
+        }
+    }
+
+    private void SelectNextDeliverable()
+    {
+        DeliverableModel next = inventoryList.GetNextItem(selectedDeliverable.name);
+        SetSelectedDeliverable(next);
+        if (isDeliverableEquipped)
+        {
+            if (OnUnequipCurrentDeliverable != null)
+            {
+                OnUnequipCurrentDeliverable();
+            }
+        }
+        EquipDeliverable(next);
     }
 }

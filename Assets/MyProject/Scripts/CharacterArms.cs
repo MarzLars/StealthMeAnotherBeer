@@ -28,6 +28,7 @@ public class CharacterArms : MonoBehaviour
         body = GetComponent<CharacterLegs>().chestBody.transform;
         InventoryManager.Instance.OnEquippedDeliverable += EquipDeliverable;
         InventoryManager.Instance.OnDeliverableDepleted += CurrentDeliverableDepleted;
+        InventoryManager.Instance.OnUnequipCurrentDeliverable += UnequipCurrentDeliverable;
     }
 
     private void OnDestroy()
@@ -36,12 +37,13 @@ public class CharacterArms : MonoBehaviour
         {
             InventoryManager.Instance.OnEquippedDeliverable -= EquipDeliverable;
             InventoryManager.Instance.OnDeliverableDepleted -= CurrentDeliverableDepleted;
+            InventoryManager.Instance.OnUnequipCurrentDeliverable -= UnequipCurrentDeliverable;
         }
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && currentDeliverable != null)
+        if (!throwing && Input.GetKeyDown(KeyCode.Q) && currentDeliverable != null)
         {
             force = (upwardForce * body.up + forwardForce * body.forward + right * -body.right);
             throwing = true;
@@ -79,5 +81,11 @@ public class CharacterArms : MonoBehaviour
         currentDeliverable.transform.position = deliverablePosition.position;
         FixedJoint joint = currentDeliverable.gameObject.AddComponent<FixedJoint>();
         joint.connectedBody = leftHand;
+    }
+
+    private void UnequipCurrentDeliverable()
+    {
+        Destroy(currentDeliverable.gameObject);
+        currentDeliverable = null;
     }
 }
