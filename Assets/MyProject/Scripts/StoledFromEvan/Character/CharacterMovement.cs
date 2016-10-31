@@ -106,7 +106,7 @@ public class CharacterMovement : MonoBehaviour
                 currentFacing = chestBody.transform.forward;
                 currentFacing.y = 0;
                 currentFacing.Normalize();
-                //
+
                 if (!legs.walking)
                 {
                     legs.StartWalking();
