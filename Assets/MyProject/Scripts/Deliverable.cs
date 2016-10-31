@@ -11,7 +11,13 @@ public class Deliverable : MonoBehaviour
         get { return data; }
     }
 
-    private float wasThrownCooldown = 3;
+    private float wasThrownCooldown = 1;
+
+    public void Throw()
+    {
+        wasThrownCooldown = 3;
+        Destroy(GetComponent<FixedJoint>());
+    }
 
     private void OnTriggerEnter(Collider coll)
     {

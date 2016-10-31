@@ -63,7 +63,7 @@ public class CharacterArms : MonoBehaviour
             else
             {
                 throwing = false;
-                Destroy(currentDeliverable.GetComponent<FixedJoint>());
+                currentDeliverable.Throw();
                 InventoryManager.Instance.DeliverableThrown(currentDeliverable.Data);
             }
         }
@@ -85,7 +85,10 @@ public class CharacterArms : MonoBehaviour
 
     private void UnequipCurrentDeliverable()
     {
-        Destroy(currentDeliverable.gameObject);
+        if (currentDeliverable != null)
+        {
+            Destroy(currentDeliverable.gameObject);
+        }
         currentDeliverable = null;
     }
 }
