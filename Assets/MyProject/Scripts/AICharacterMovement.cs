@@ -58,6 +58,12 @@ public class AICharacterMovement : MonoBehaviour
 
     protected virtual void Update()
     {
+        //debug cancel of chase
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            StopAttacking();
+        }
+
         //
         if (jump)
         {
@@ -150,6 +156,14 @@ public class AICharacterMovement : MonoBehaviour
         if (targetType == TargetType.Attack)
         {
             jump = true;
+        }
+    }
+
+    public virtual void StopAttacking()
+    {
+        if (targetType == TargetType.Attack)
+        {
+            target = null;
         }
     }
 

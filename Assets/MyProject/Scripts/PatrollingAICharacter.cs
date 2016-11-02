@@ -22,6 +22,12 @@ public class PatrollingAICharacter : AICharacterMovement
         SetTarget(FindClosestWaypoint(), TargetType.Waypoint);
     }
 
+    public override void StopAttacking()
+    {
+        base.StopAttacking();
+        SetTarget(FindClosestWaypoint(), TargetType.Waypoint);
+    }
+
     protected override void EngageTarget()
     {
         base.EngageTarget();
