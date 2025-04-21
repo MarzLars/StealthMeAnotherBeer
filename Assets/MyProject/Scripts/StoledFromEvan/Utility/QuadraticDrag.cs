@@ -14,6 +14,6 @@ public class QuadraticDrag : MonoBehaviour
 
     void FixedUpdate()
     {
-        rigidbody.AddForce(rigidbody.velocity * rigidbody.velocity.magnitude * -(drag * Time.fixedDeltaTime), ForceMode.VelocityChange);
+        rigidbody.AddForce(rigidbody.linearVelocity * rigidbody.linearVelocity.magnitude * -(drag * Time.fixedDeltaTime), ForceMode.VelocityChange);
     }
 }

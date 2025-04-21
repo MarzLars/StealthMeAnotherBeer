@@ -1,0 +1,713 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.32f1 (b2e806cf271c) revision 11724806'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/lars_/Unity/StealthMeAnotherBeer
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64674
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/lars_/Unity/StealthMeAnotherBeer
+C:/Users/lars_/Unity/StealthMeAnotherBeer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35984]  Target information:
+
+Player connection [35984]  * "[IP] 10.0.0.32 [Port] 0 [Flags] 2 [Guid] 3176339162 [EditorId] 3176339162 [Version] 1048832 [Id] WindowsEditor(7,Bruh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35984] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.32f1 (b2e806cf271c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lars_/Unity/StealthMeAnotherBeer/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006066 seconds.
+- Loaded All Assemblies, in  1.046 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.769 seconds
+Domain Reload Profiling: 3812ms
+	BeginReloadAssembly (436ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (397ms)
+			TypeCache.Refresh (386ms)
+				TypeCache.ScanAssembly (341ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2770ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (172ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (322ms)
+			ProcessInitializeOnLoadAttributes (1910ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.302 seconds
+Domain Reload Profiling: 2026ms
+	BeginReloadAssembly (534ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (23ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1303ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (943ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (633ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (40.5 KB). Loaded Objects now: 594.
+Memory consumption went from 54.6 MB to 54.6 MB.
+Total: 16.193700 ms (FindLiveObjects: 0.061000 ms CreateObjectMapping: 0.010900 ms MarkObjects: 15.944100 ms  DeleteObjects: 0.174300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 369318.592524 seconds.
+  path: Assets/ICE/Character_original_BAK.prefab
+  artifactKey: Guid(495bcfa7ae97b89439b5068253a3f344) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ICE/Character_original_BAK.prefab using Guid(495bcfa7ae97b89439b5068253a3f344) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6bdb96ced12f97dec9dec76d60ec7ffe') in 0.2848157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MyProject/Models/Fatbody.fbx
+  artifactKey: Guid(c99e7a6c4d668aa478c6217db2545183) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/Fatbody.fbx using Guid(c99e7a6c4d668aa478c6217db2545183) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ef1ceb5adb59454819c458801e7ea8d') in 0.1128575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/MyProject/Models/PolicemanBody.fbx
+  artifactKey: Guid(c9b00aa94a305164ea610168cc9677b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/PolicemanBody.fbx using Guid(c9b00aa94a305164ea610168cc9677b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5e2cced17e43b6adff8b97d5b376265') in 0.0473283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MyProject/Materials/Pink Skin.mat
+  artifactKey: Guid(d2654a4dc33efb944820e843d5a48f7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Materials/Pink Skin.mat using Guid(d2654a4dc33efb944820e843d5a48f7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '234f4cf790db2c7ed3a7aa8a66062ecf') in 0.0335807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Building_D.FBX
+  artifactKey: Guid(91f5208490d55564ca85ec358508fab1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Building_D.FBX using Guid(91f5208490d55564ca85ec358508fab1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60422a0d8b018ca5a56ed40ce2f70149') in 0.2274078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 156
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowpolyCityPack/Meshes/StreetProps.FBX
+  artifactKey: Guid(29b8da6fbd3c2b542bf7bcda4beeab81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/StreetProps.FBX using Guid(29b8da6fbd3c2b542bf7bcda4beeab81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bda46959511e81aed13b7ab11d37264') in 0.2393596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 256
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Fences.FBX
+  artifactKey: Guid(4b29ecf28e5fd4b4f86a961aca54fd1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Fences.FBX using Guid(4b29ecf28e5fd4b4f86a961aca54fd1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da6bb6abffa3e172587ef9964493c8e3') in 0.140602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowpolyCityPack/PremadeSets/Buildings/Building_D.prefab
+  artifactKey: Guid(5956602d5e7f49540b506d0db6bd9d08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/PremadeSets/Buildings/Building_D.prefab using Guid(5956602d5e7f49540b506d0db6bd9d08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3105d2ae434d971c6178f09a0bc74ec') in 0.0743798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1407
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Materials/Leaves_02.mat
+  artifactKey: Guid(ef03674ad19dc4f4985cb53df430ba91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Materials/Leaves_02.mat using Guid(ef03674ad19dc4f4985cb53df430ba91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4c172413e10b837ceac8958f250c135') in 0.0378613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/MyProject/Textures/Cupcake.png
+  artifactKey: Guid(5a2c21128039440bc9554f51ea4702c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Textures/Cupcake.png using Guid(5a2c21128039440bc9554f51ea4702c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcda70fcbe6602c3df262bb22265943e') in 0.1473093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/MyProject/Models/FatManblendPiotr2.fbx
+  artifactKey: Guid(40bfe253fa8005147aef60d1f227c70d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/FatManblendPiotr2.fbx using Guid(40bfe253fa8005147aef60d1f227c70d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8751aa8ebd867b7e21aec94b5dca6ca') in 0.0653711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LowpolyCityPack/Meshes/BuildingProps.FBX
+  artifactKey: Guid(5d63c46259af67b4185f02969bda19ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/BuildingProps.FBX using Guid(5d63c46259af67b4185f02969bda19ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66fa721ff368b8a9cb2ca0e5a6ca02b5') in 0.2042835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 218
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LowpolyCityPack/Prefabs/StreetProps/Fences/Fence_D.prefab
+  artifactKey: Guid(21a4b85c7c7e04a44baa99eba73d908c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Prefabs/StreetProps/Fences/Fence_D.prefab using Guid(21a4b85c7c7e04a44baa99eba73d908c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '969b8b0bbd854114cc210bb4c9453c2e') in 0.0420767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Utility/QuadraticDrag.cs
+  artifactKey: Guid(79e36cc04707c5e47a31b2450cbf23ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Utility/QuadraticDrag.cs using Guid(79e36cc04707c5e47a31b2450cbf23ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecaaac847e388a113d42271a5d82571d') in 0.0216146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Character/HoldInDirection.cs
+  artifactKey: Guid(9398d1151757c9b4b991e02c2019e4ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Character/HoldInDirection.cs using Guid(9398d1151757c9b4b991e02c2019e4ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bb37eca96491996648fe411a4a0532e') in 0.0175169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Character/CharacterLegs.cs
+  artifactKey: Guid(c8759d78b826b7e4c809ce2e1bed9e0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Character/CharacterLegs.cs using Guid(c8759d78b826b7e4c809ce2e1bed9e0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90c2346e0c5279033ad519f39a668b17') in 0.0214382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Character/CharacterInput.cs
+  artifactKey: Guid(40a9059b1c20e8e46a105c5c58b66352) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Character/CharacterInput.cs using Guid(40a9059b1c20e8e46a105c5c58b66352) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bb7ad37b32472d26396d434817cbb91') in 0.0180931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MyProject/PhysicsMaterials/Friction.physicMaterial
+  artifactKey: Guid(cfbb74a22fff37c48be4bf49903fdbef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/PhysicsMaterials/Friction.physicMaterial using Guid(cfbb74a22fff37c48be4bf49903fdbef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '922d21ce57387feb4345aa12a0b212b3') in 0.0228093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/LowpolyCityPack/Prefabs/Roads/RoadMarks/RoadM_Line.prefab
+  artifactKey: Guid(cb2b28e3e064a6b4bb3011daa579e73d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Prefabs/Roads/RoadMarks/RoadM_Line.prefab using Guid(cb2b28e3e064a6b4bb3011daa579e73d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6bc15ae695bc2190b233a2feb58536e3') in 0.0302551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Utility/Math.cs
+  artifactKey: Guid(a61e156898822f8449bad8bcce524136) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Utility/Math.cs using Guid(a61e156898822f8449bad8bcce524136) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51b8c4842be07d3db95f94812c8ffea9') in 0.0197299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/MyProject/Models/PoliceStash.fbx
+  artifactKey: Guid(5bd77d2e485a30a488a6228c571ddd6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/PoliceStash.fbx using Guid(5bd77d2e485a30a488a6228c571ddd6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4b837484baaee443a9a0b1eaa8cf629') in 0.0454057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MyProject/Materials/Black.mat
+  artifactKey: Guid(212bae51486102f4cb270d1c8e2c2ce7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Materials/Black.mat using Guid(212bae51486102f4cb270d1c8e2c2ce7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f203aef053bdd67692de5d197d5c66d') in 0.0242657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Effects/SmokeObject.cs
+  artifactKey: Guid(38bfd5d3ea3fe864b86f99fb188af754) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Effects/SmokeObject.cs using Guid(38bfd5d3ea3fe864b86f99fb188af754) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '276765a4d2363da0aba56998e513c311') in 0.0209933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/MyProject/ScriptableObjects/Donut.asset
+  artifactKey: Guid(2972c2059630444c888b1cdac1fc32a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/ScriptableObjects/Donut.asset using Guid(2972c2059630444c888b1cdac1fc32a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21bdeda32dae03f5eca385fb603e36b3') in 0.0208532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/MyProject/Models/PoliceHat.fbx
+  artifactKey: Guid(38aa936fb4735d84ebe21979bc30494b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/PoliceHat.fbx using Guid(38aa936fb4735d84ebe21979bc30494b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b383a66ed319c372ea5979887618a782') in 0.0381742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MyProject/Textures/fedora.png
+  artifactKey: Guid(f9bdea1e4168d6b45aabaf38291bd105) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Textures/fedora.png using Guid(f9bdea1e4168d6b45aabaf38291bd105) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '529c7bc77d4872278298ce1de76c4110') in 0.043116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Building_A.FBX
+  artifactKey: Guid(d4701379bebf0ca48807026537801831) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Building_A.FBX using Guid(d4701379bebf0ca48807026537801831) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc1237d829343bcae4f8a7825b205087') in 0.0648929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MyProject/Textures/badgelightmap.png
+  artifactKey: Guid(fc1b884fb9ff3eb42a316bdf76df07ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Textures/badgelightmap.png using Guid(fc1b884fb9ff3eb42a316bdf76df07ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23f6362c9a607f6b94d5d5006902dee8') in 0.0446345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Shed.FBX
+  artifactKey: Guid(8b151aec20bd4014b9e418834effbfe6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Shed.FBX using Guid(8b151aec20bd4014b9e418834effbfe6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04dae6e0681cf0e4414e95b84dd620e9') in 0.1017408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Materials/Mud.mat
+  artifactKey: Guid(7e703074faa5ed34bbb76b80a9175bc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Materials/Mud.mat using Guid(7e703074faa5ed34bbb76b80a9175bc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b64ab9609eea57aea66d21124e54f5ca') in 0.0689254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Textures/atlas.tga
+  artifactKey: Guid(a56b08bcd0efc1142ac4b8a9ae1284e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Textures/atlas.tga using Guid(a56b08bcd0efc1142ac4b8a9ae1284e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9062ba12b5222134d8f914a10f390ed') in 0.0641577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Building_B.FBX
+  artifactKey: Guid(29b915f8d21575840bf98a638b9d9c16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Building_B.FBX using Guid(29b915f8d21575840bf98a638b9d9c16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '367ae73c47ae0b0536d03ca407aea5bc') in 0.0692594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Materials/RoadMarkings.mat
+  artifactKey: Guid(1a8b038a9dbe8264f8adca5057f1acc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Materials/RoadMarkings.mat using Guid(1a8b038a9dbe8264f8adca5057f1acc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd84f6931d912ffea326f621b43b81ef4') in 0.0219484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Park.FBX
+  artifactKey: Guid(63c115d4cb97ebb429c815dffc7a05d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Park.FBX using Guid(63c115d4cb97ebb429c815dffc7a05d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2751eee60e27a572b610a9a4f5f2c06') in 0.0672173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MyProject/Models/Materials/Harry hawaiian shirt hair.mat
+  artifactKey: Guid(6b62ad0cc10a40c42807eda72fc69f76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/Materials/Harry hawaiian shirt hair.mat using Guid(6b62ad0cc10a40c42807eda72fc69f76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e210bc1e98b6cc1fd192c907d60d59f2') in 0.0591494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Utility/IgnoreCollider.cs
+  artifactKey: Guid(ba251a9daf8743944ab4be1bdd2aaa7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Utility/IgnoreCollider.cs using Guid(ba251a9daf8743944ab4be1bdd2aaa7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3f0117d0857400a231869175deef816') in 0.0209354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Materials/Leavas_03.mat
+  artifactKey: Guid(bc03ba30a4c457d47883b5eb0920749c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Materials/Leavas_03.mat using Guid(bc03ba30a4c457d47883b5eb0920749c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3723b133cb11cb91357f0b07f506544f') in 0.0216324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MyProject/Sprites/donutIcon.png
+  artifactKey: Guid(b9faa7e1cf6ef4ce1be59c5b2a26eed0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Sprites/donutIcon.png using Guid(b9faa7e1cf6ef4ce1be59c5b2a26eed0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '813cc2b705bca8e190625faf794e21a9') in 0.0520704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Utility/TimeManager.cs
+  artifactKey: Guid(026e1b370d0805f4eace705ad9586491) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Utility/TimeManager.cs using Guid(026e1b370d0805f4eace705ad9586491) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d9761381fa698134d4a935d58b0ff74') in 0.0191208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/MyProject/Models/donutfbx.fbx
+  artifactKey: Guid(1b64df875116647ed9f8849080c6b350) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/donutfbx.fbx using Guid(1b64df875116647ed9f8849080c6b350) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1ffe7d941f7ee7efa1c06268cb9744c') in 0.0453247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MyProject/Scenes/Village.unity
+  artifactKey: Guid(a6b98e820fc37a04eb8bfe50fb46da67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scenes/Village.unity using Guid(a6b98e820fc37a04eb8bfe50fb46da67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56157ef8fe6fbdca7a9681d34fa4e1ee') in 0.0338993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MyProject/Models/PoliceHat2.fbx
+  artifactKey: Guid(b7171d5e345d2264897306ce5193e79b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/PoliceHat2.fbx using Guid(b7171d5e345d2264897306ce5193e79b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d6f335d552aa7f8c94ca98beb6c382b') in 0.0544654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/MyProject/Textures/PoliceHatWrap.png
+  artifactKey: Guid(a91ac91396aa3354b818c35069b96bf2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Textures/PoliceHatWrap.png using Guid(a91ac91396aa3354b818c35069b96bf2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f094eda2bf92ea73bcc27ffc851dc0d9') in 0.0549643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/MyProject/Materials/PoliceBadge.mat
+  artifactKey: Guid(225cda4746916784b98868431bff4cc0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Materials/PoliceBadge.mat using Guid(225cda4746916784b98868431bff4cc0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21dea99e99996b190dfa782f7df930bd') in 0.0358649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/MyProject/Materials/Wall.mat
+  artifactKey: Guid(e09a43f8f6bd02942a1bd9addbabc2ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Materials/Wall.mat using Guid(e09a43f8f6bd02942a1bd9addbabc2ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b0f0749c736ef17df1c1536c38a3f9a') in 0.0306801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MyProject/Models/Materials/Material.001.mat
+  artifactKey: Guid(f79d4bf7ba1c37948b18284b552733e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/Materials/Material.001.mat using Guid(f79d4bf7ba1c37948b18284b552733e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5f1306c16891946c59e166c5b6e1ef7') in 0.026067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/MyProject/Models/Materials/FedoraMat.mat
+  artifactKey: Guid(efb8e97f7a9b652469564c3ac02c78f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/Materials/FedoraMat.mat using Guid(efb8e97f7a9b652469564c3ac02c78f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '712b70d0b594d6c82fd4c8b7a61d56ed') in 0.0317105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MyProject/Sprites/cupcake.png
+  artifactKey: Guid(79021dec4f7b12f40965cec4bbbfc57c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Sprites/cupcake.png using Guid(79021dec4f7b12f40965cec4bbbfc57c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f7dc2e51ab1622deab460fbed6d4a54') in 0.048589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MyProject/Models/GorillaChest.fbx
+  artifactKey: Guid(06995931e59ca734eb8b406a92f3a747) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/GorillaChest.fbx using Guid(06995931e59ca734eb8b406a92f3a747) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b408902f8829370e95c9faaf761c463') in 0.0425745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Building_C.FBX
+  artifactKey: Guid(003705adb3667474d8a8bb4040a58760) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Building_C.FBX using Guid(003705adb3667474d8a8bb4040a58760) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5c1b738a4751c9fba3589b4a6481fe3') in 0.1804102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 156
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/MyProject/Prefabs/Policeman.prefab
+  artifactKey: Guid(55c9e8b03da834f4ebd773d55be5248a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Prefabs/Policeman.prefab using Guid(55c9e8b03da834f4ebd773d55be5248a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a25bfa52ae49f1dab82dadfa4723b05a') in 0.0342247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 195
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LowpolyCityPack/Meshes/Textures/grass.png
+  artifactKey: Guid(3482d24f9e4f70741a9780133bcc144d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/Textures/grass.png using Guid(3482d24f9e4f70741a9780133bcc144d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a4d4efd032c68fbf5f395e8adc94bbe') in 0.0375217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/MyProject/Scripts/Models/DeliverableModel.cs
+  artifactKey: Guid(cf632661a21b3a94788fc92790035416) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/Models/DeliverableModel.cs using Guid(cf632661a21b3a94788fc92790035416) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36d7ead805e006bdbd1b20e71bc101c0') in 0.0189438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/MyProject/Scripts/AICharacterMovement.cs
+  artifactKey: Guid(706d7f3ae4b9497419069877ac112172) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/AICharacterMovement.cs using Guid(706d7f3ae4b9497419069877ac112172) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9967516ea4589cfe2aedf15891d1fa5') in 0.0205603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/MyProject/Prefabs/Cupcake.prefab
+  artifactKey: Guid(9cc0fc57bd2252846b1775b9d084a27d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Prefabs/Cupcake.prefab using Guid(9cc0fc57bd2252846b1775b9d084a27d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb1e3c53af2632ca35eaed58cbdd183c') in 0.0437783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MyProject/Models/Materials/h.mat
+  artifactKey: Guid(be3cd49d4bae14234958690def77829d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/Materials/h.mat using Guid(be3cd49d4bae14234958690def77829d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a21cb9bd35f7252b1d408627e22b6ca') in 0.0210482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+  artifactKey: Guid(db7667203062c644ea1877077e30ebd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs using Guid(db7667203062c644ea1877077e30ebd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7797de7d5fc8d2c710b97bbe8a7f5769') in 0.0185587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Character/CharacterFaceDirection.cs
+  artifactKey: Guid(6ffbef19e05797a4b99728240355b45b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Character/CharacterFaceDirection.cs using Guid(6ffbef19e05797a4b99728240355b45b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e7cdf48b9ed65e6202d745a8ad3a00e') in 0.0205332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/World/SoccerBall.cs
+  artifactKey: Guid(823dbd5916f91e141b4e1adb80c68ea9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/World/SoccerBall.cs using Guid(823dbd5916f91e141b4e1adb80c68ea9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1559f5573879925203c75fe47147f415') in 0.0208234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/MyProject/Scripts/StoledFromEvan/Character/CharacterUpright.cs
+  artifactKey: Guid(14933802d24c46947ac786a9d1fd6189) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/StoledFromEvan/Character/CharacterUpright.cs using Guid(14933802d24c46947ac786a9d1fd6189) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e162c37ad81d17d80bd7d46beb71710') in 0.0201232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/MyProject/Models/Materials/Harry hawaiian shirt body.mat
+  artifactKey: Guid(dd860a57f9b58c24b8fdb14a7bf08caa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Models/Materials/Harry hawaiian shirt body.mat using Guid(dd860a57f9b58c24b8fdb14a7bf08caa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d788955ebc541c788e71b24fbb72916') in 0.0261096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/MyProject/Materials/donut.mat
+  artifactKey: Guid(0c54066a0ecc94dcab613ca6c8a7da4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Materials/donut.mat using Guid(0c54066a0ecc94dcab613ca6c8a7da4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cca9f71b49a04ad62963c51bfe84b66c') in 0.0262141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/LowpolyCityPack/Meshes/BusStops.FBX
+  artifactKey: Guid(d5043f12e5f3b1642a3ba79892a7826b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Meshes/BusStops.FBX using Guid(d5043f12e5f3b1642a3ba79892a7826b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c10f5385bdd0710bcaecbef71705be6') in 0.0504111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowpolyCityPack/Prefabs/Roads/Streets/Road_Streight.prefab
+  artifactKey: Guid(0880d9ac631f24f409114af2781b3480) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowpolyCityPack/Prefabs/Roads/Streets/Road_Streight.prefab using Guid(0880d9ac631f24f409114af2781b3480) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd96d2ea630160a6725172641dff98ca7') in 0.0378082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MyProject/Scripts/VisionConeController.cs
+  artifactKey: Guid(62d9a2bbf3e58c346856b816935aac91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MyProject/Scripts/VisionConeController.cs using Guid(62d9a2bbf3e58c346856b816935aac91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '091beaeceb6e67d0dcfb9467b31b8db2') in 0.0236467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 685 unused Assets / (103.7 KB). Loaded Objects now: 1192.
+Memory consumption went from 58.5 MB to 58.4 MB.
+Total: 101.882900 ms (FindLiveObjects: 1.801500 ms CreateObjectMapping: 0.114400 ms MarkObjects: 99.486500 ms  DeleteObjects: 0.476800 ms)
+
+Prepare: number of updated asset objects reloaded= 0

@@ -293,22 +293,22 @@ public class AICharacterMovement : MonoBehaviour
         {
             // ***** WHEN STANDING STILL, APPLY A DRAG BASED ON HOW FAST THE TORSO IS TRAVELLING ***
             //
-            Vector3 horizontalVelocity = chestBody.velocity;
+            Vector3 horizontalVelocity = chestBody.linearVelocity;
             horizontalVelocity.y = 0;
             //
             float speed = horizontalVelocity.magnitude;
             //
-            chestBody.velocity *= (1 - Mathf.Clamp(speed * 20f + 10, 0, 50) * Time.fixedDeltaTime);
+            chestBody.linearVelocity *= (1 - Mathf.Clamp(speed * 20f + 10, 0, 50) * Time.fixedDeltaTime);
         }
         else
         {
             // ***** APPLY A POWERFUL DRAG FORCE IF THE TORSO ISN'T TRAVELLING IN THE INPUT DIRECITON, ALLOWS FOR TIGHT TURNS ***
             //
-            Vector3 horizontalVelocity = chestBody.velocity;
+            Vector3 horizontalVelocity = chestBody.linearVelocity;
             horizontalVelocity.y = 0;
             //
             float m = 1 - (1 + Vector3.Dot(horizontalVelocity.normalized, inputDirection)) / 2f;
-            chestBody.velocity *= (1 - (m * 30) * Time.fixedDeltaTime);
+            chestBody.linearVelocity *= (1 - (m * 30) * Time.fixedDeltaTime);
         }
         //
     }

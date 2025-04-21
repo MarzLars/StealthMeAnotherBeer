@@ -62,7 +62,7 @@ public class CharacterLegs : MonoBehaviour
             Vector3 horizontalVelocity = chestBody.transform.forward;
             horizontalVelocity.y = 0;
             //
-            float speed = chestBody.velocity.magnitude;
+            float speed = chestBody.linearVelocity.magnitude;
             horizontalVelocity.Normalize();
             //
             //

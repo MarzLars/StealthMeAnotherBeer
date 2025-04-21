@@ -26,10 +26,10 @@ public class CharacterMaintainHeight : MonoBehaviour
         {
             groundHeight = groundHit.point.y;
         }
-        float diff = (groundHeight + desiredHeight) - (transform.position.y + rigidbody.velocity.y * leadTime);
+        float diff = (groundHeight + desiredHeight) - (transform.position.y + rigidbody.linearVelocity.y * leadTime);
         if (inRelationTo != null)
         {
-            diff = inRelationTo.TransformPoint(Vector3.up * desiredHeight).y - (transform.position.y + rigidbody.velocity.y * leadTime);
+            diff = inRelationTo.TransformPoint(Vector3.up * desiredHeight).y - (transform.position.y + rigidbody.linearVelocity.y * leadTime);
         }
         float dist = Mathf.Abs(diff);
         float pullM = Mathf.Clamp01(dist / 0.3f);
